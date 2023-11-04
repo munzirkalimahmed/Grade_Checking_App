@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Checker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form id="form1" onsubmit="checkGrade(event)">
+    <h1>Grade Checker</h1>
+    <form id="gradeForm">
+        <label for="percentage">Enter your percentage: </label>
+        <input type="number" id="percentage" name="percentage" min="0" max="100" required>
+        <button type="button" onclick="checkGrade(event)">Check Grade</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <h2>Your Grade is: <span id="grade"></span></h2>
+    </div>
+
+    </form>
+
+    <script src="grade.js"></script>
+</body>
+</html>

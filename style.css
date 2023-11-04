@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 12px 12px;
+}
+
+#gradeForm {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 8px;
+    width: 100px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+    background-color: red;
+    margin-left: 350px;
+    margin-right: 350px;
+
+}
+
+#grade {
+    font-weight: bold;
+    color: wheat;
+}
+
+form{
+    background-color: green;
+}
+#form1{
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 40px;
+}
